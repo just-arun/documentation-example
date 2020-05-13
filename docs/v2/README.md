@@ -1,10 +1,10 @@
 ---
 home: true
 heroImage: /assets/images/logo.png
-heroText: LeapJS v1
+heroText: LeapJS v2
 tagline: Light weight framework for nodejs
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /v2/guide/
 features:
 - title: Simplicity First
   details: Minimal setup with markdown-centered project structure helps you focus on writing.

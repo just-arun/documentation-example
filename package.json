@@ -1,6 +1,11 @@
 {
   "scripts": {
     "dev": "sudo vuepress dev docs",
-    "build": "sudo vuepress build docs"
+    "docs:build": "sudo vuepress build docs",
+    "deploy": "gh-pages -d docs/.vuepress/dist"
+  },
+  "homepage": "https://github.com/just-arun/documentation-example",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
