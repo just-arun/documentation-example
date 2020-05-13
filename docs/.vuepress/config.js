@@ -9,7 +9,7 @@ module.exports = {
       { text: "Guide", link: "/guide/" },
     ],
     sidebar: {
-      "/guide/": ["", "schema"],
+      "/guide/": ["", "dependency-injection", "schema"],
     },
     repo: "just-arun/documentation-example",
     repoLabel: "Contribute!",
@@ -18,8 +18,17 @@ module.exports = {
     docsBranch: "master",
     editLinks: true,
     editLinkText: "Help us improve this page!",
+    smoothScroll: true,
     lastUpdated: "Last Updated",
-    smoothScroll: true
   },
-  base: '/documentation-example/'
+  plugins: [
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true,
+      },
+    ],
+  ],
+  base: "/documentation-example/",
 };

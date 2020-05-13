@@ -6,7 +6,7 @@
     </form>
     <br />
     <br />
-    <h2>total repose: {{data.length}}</h2>
+    <h2>repose: {{data.length}}</h2>
     <ul>
       <li v-for="(item, i) in data" :key="i">
         <h4>{{item.name}}</h4>
